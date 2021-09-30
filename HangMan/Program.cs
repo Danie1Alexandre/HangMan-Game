@@ -25,7 +25,7 @@ namespace HangMan
                 Console.WriteLine("You have ten guesses to use before losing");
 
                 secretWord = words[randomNumber.Next(0, 10)];//Pick a random word to guess on
-                char[] correctWord = new char[secretWord.Length];//setting upp word lenght and hide letters from user
+                char[] correctWord = new char[secretWord.Length];//setting upp the secret word in a array counting lenght and hiddes letters from user.
                 for (int i = 0; i < correctWord.Length; i++)
                     correctWord[i] = '-';
                 int guessQuantity = 0;
