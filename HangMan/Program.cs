@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Made by Daniel Alexandre 2021
+using System;
 using System.Text;
 
 namespace HangMan
